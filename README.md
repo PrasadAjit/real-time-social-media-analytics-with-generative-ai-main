@@ -260,14 +260,6 @@ streamlit run Bedrock_Chatbot.py --theme.base "dark" -- --pool_id <pool_id> --ap
 ```
 
 This will open a tab in your browser. This is how we will be able to interact with our Flink Application and make questions related to the processed messages
-
-4. You will need to authenticate with the Cognito user that has been created during the CDK Deployment
-
-If you did not make any change to the CDK, the Cognito user created for you is: 
-
-* Username: FlinkGenAIBedrock@example.com,
-* Password: FlinkGenAIBedrock2024!
-
 > You can create additional users in Amazon Cognito and delete this one if needed
 
 ![Cognito-auth](diagrams-screenshots/cognito-auth.png "cognito-auth")
