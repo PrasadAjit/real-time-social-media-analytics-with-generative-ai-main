@@ -1,0 +1,11 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+.DS_*
+.idea*
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+flink-bedrock/target
+ash_output
